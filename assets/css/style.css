@@ -7559,33 +7559,33 @@ footer .ca-cta-content .ca-section-title {
    Button Color Enforcement (Apni Market Palette)
    ======================================================= */
 
-/* Primary button: #F58634 background, dark charcoal #43474B label */
+/* Primary button: #F58634 background, white label */
 .ca-btn-primary-3,
 a.ca-btn-primary-3,
 button.ca-btn-primary-3 {
     background-color: var(--apni-primary-orange) !important;
-    color: var(--apni-dark-charcoal) !important;
+    color: #FFFFFF !important;
     border: none;
     font-weight: 700;
 }
 .ca-btn-primary-3 span,
 a.ca-btn-primary-3 span,
 button.ca-btn-primary-3 span {
-    background: rgba(67, 71, 75, 0.14) !important;
-    color: var(--apni-dark-charcoal) !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #FFFFFF !important;
 }
 .ca-btn-primary-3 span i,
 a.ca-btn-primary-3 span i,
 button.ca-btn-primary-3 span i {
-    color: var(--apni-dark-charcoal) !important;
+    color: #FFFFFF !important;
 }
 
-/* Primary button hover: #E77B2E background, dark charcoal #43474B label */
+/* Primary button hover: #E77B2E background, white label */
 .ca-btn-primary-3:hover,
 a.ca-btn-primary-3:hover,
 button.ca-btn-primary-3:hover {
     background-color: var(--apni-supporting-orange) !important;
-    color: var(--apni-dark-charcoal) !important;
+    color: #FFFFFF !important;
 }
 .ca-btn-primary-3:hover:after {
     background: var(--apni-supporting-orange) !important;
@@ -7593,8 +7593,8 @@ button.ca-btn-primary-3:hover {
 .ca-btn-primary-3:hover span,
 a.ca-btn-primary-3:hover span,
 button.ca-btn-primary-3:hover span {
-    background: rgba(67, 71, 75, 0.22) !important;
-    color: var(--apni-dark-charcoal) !important;
+    background: rgba(255, 255, 255, 0.3) !important;
+    color: #FFFFFF !important;
 }
 
 /* "Get A Quote" CTA Button: font color white */
