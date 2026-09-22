@@ -981,8 +981,9 @@ header.header-2.stiky.scroll-header .ca-header-bg-2 {
     width: 100%;
 }
 
+.header-3,
 header.header-area-3.stiky .header-3 {
-    background: #000000;
+    background: #000000 !important;
     padding: 20px 24px;
     border-radius: 87px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 24px;
@@ -998,7 +999,7 @@ header.header-area-3.stiky.scroll-header .header-3 {
     top: 0;
     border-radius: 0;
     padding: 15px;
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 
 .header-area-3.stiky.scroll-header{
@@ -1010,7 +1011,7 @@ header.header-area-3.stiky.scroll-header .header-3 {
     width: 100%;
     z-index: 999;
     visibility: visible;
-    background-color: #000000;
+    background-color: #000000 !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 24px;
     -webkit-animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
     -khtml-animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
@@ -7561,8 +7562,7 @@ footer .ca-cta-content .ca-section-title {
 /* Primary button: #F58634 background, dark charcoal #43474B label */
 .ca-btn-primary-3,
 a.ca-btn-primary-3,
-button.ca-btn-primary-3,
-.ca-btn-header .ca-btn-primary-3 {
+button.ca-btn-primary-3 {
     background-color: var(--apni-primary-orange) !important;
     color: var(--apni-dark-charcoal) !important;
     border: none;
@@ -7583,8 +7583,7 @@ button.ca-btn-primary-3 span i {
 /* Primary button hover: #E77B2E background, dark charcoal #43474B label */
 .ca-btn-primary-3:hover,
 a.ca-btn-primary-3:hover,
-button.ca-btn-primary-3:hover,
-.ca-btn-header .ca-btn-primary-3:hover {
+button.ca-btn-primary-3:hover {
     background-color: var(--apni-supporting-orange) !important;
     color: var(--apni-dark-charcoal) !important;
 }
@@ -7596,6 +7595,36 @@ a.ca-btn-primary-3:hover span,
 button.ca-btn-primary-3:hover span {
     background: rgba(67, 71, 75, 0.22) !important;
     color: var(--apni-dark-charcoal) !important;
+}
+
+/* "Get A Quote" CTA Button: font color white */
+.ca-btn-header .ca-btn-primary-3,
+a.ca-btn-header .ca-btn-primary-3,
+.ca-offcanvas-contact .ca-btn-primary-3,
+a.ca-offcanvas-contact .ca-btn-primary-3 {
+    color: #FFFFFF !important;
+}
+.ca-btn-header .ca-btn-primary-3 span,
+.ca-offcanvas-contact .ca-btn-primary-3 span {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #FFFFFF !important;
+}
+.ca-btn-header .ca-btn-primary-3 span i,
+.ca-offcanvas-contact .ca-btn-primary-3 span i {
+    color: #FFFFFF !important;
+}
+.ca-btn-header .ca-btn-primary-3:hover,
+.ca-offcanvas-contact .ca-btn-primary-3:hover {
+    color: #FFFFFF !important;
+}
+.ca-btn-header .ca-btn-primary-3:hover span,
+.ca-offcanvas-contact .ca-btn-primary-3:hover span {
+    background: rgba(255, 255, 255, 0.3) !important;
+    color: #FFFFFF !important;
+}
+.ca-btn-header .ca-btn-primary-3:hover span i,
+.ca-offcanvas-contact .ca-btn-primary-3:hover span i {
+    color: #FFFFFF !important;
 }
 
 /* Secondary button on light background */

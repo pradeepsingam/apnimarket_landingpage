@@ -1,3 +1,22 @@
+Opening Hours:
+
+Monday - Friday
+08:30-16:00
+Saturday
+10:00-14:00
+Contact Information:
+
+Tvetenveien 154,
+0671 Oslo,
+see map
+Phone:
++47 22 01 23 45
+Email:
+post@apnimarket.no
+Org. No:
+915 665 608
+
+
 
 **1. Header / Navigation**
 
