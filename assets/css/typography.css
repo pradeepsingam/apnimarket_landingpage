@@ -46,7 +46,7 @@ Location:
     --color-primary: var(--apni-primary-orange);
     --color-primary-hover: var(--apni-supporting-orange);
     --color-primary-active: var(--apni-deep-orange);
-    --color-header-bg: var(--apni-header-grey);
+    --color-header-bg: #000000;
     --color-footer-bg: var(--apni-dark-charcoal);
     --color-text-main: var(--apni-dark-charcoal);
     --color-text-muted: var(--apni-header-grey);

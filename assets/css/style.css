@@ -982,10 +982,10 @@ header.header-2.stiky.scroll-header .ca-header-bg-2 {
 }
 
 header.header-area-3.stiky .header-3 {
-    background: var(--apni-header-grey);
+    background: #000000;
     padding: 20px 24px;
     border-radius: 87px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 24px;
     z-index: 9;
     position: relative;
     left: 0;
@@ -998,7 +998,7 @@ header.header-area-3.stiky.scroll-header .header-3 {
     top: 0;
     border-radius: 0;
     padding: 15px;
-    background-color: var(--apni-header-grey);
+    background-color: #000000;
 }
 
 .header-area-3.stiky.scroll-header{
@@ -1010,14 +1010,48 @@ header.header-area-3.stiky.scroll-header .header-3 {
     width: 100%;
     z-index: 999;
     visibility: visible;
-    background-color: var(--apni-header-grey);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 24px;
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 24px;
     -webkit-animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
     -khtml-animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
     -moz-animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
     -ms-animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
     -o-animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
     animation: 0.95s ease 0s normal forwards 1 running headerSlideDown;
+}
+
+.ca-logo a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.ca-logo img {
+    max-height: 44px;
+    width: auto;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ca-offcanvas-logo {
+    background: #000000;
+    padding: 8px 14px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.ca-offcanvas-logo img {
+    max-height: 38px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.ca-ft-logo img {
+    max-height: 42px;
+    width: auto;
+    object-fit: contain;
+    display: inline-block;
 }
 
 

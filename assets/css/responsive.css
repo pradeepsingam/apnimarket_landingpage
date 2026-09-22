@@ -139,7 +139,8 @@
         top: 0px !important;
     }
     .header-3 .ca-offcanvas-toogle {
-        border: 1px solid #02000E;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: #FFFFFF;
         padding: 5px 8px;
         border-radius: 7px;
     }
@@ -150,8 +151,8 @@
     .header-area-3.stiky {
         position: fixed;
         z-index: 9;
-        background: #fff;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background: #000000;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 24px;
     }
     
     .header-area-3.stiky .header-3 {
@@ -727,7 +728,8 @@
         border-radius: 0;
     }
     .header-3 .ca-offcanvas-toogle {
-        border: 1px solid #02000E;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: #FFFFFF;
         padding: 5px 8px;
         border-radius: 7px;
     }
@@ -735,8 +737,8 @@
     .header-area-3.stiky {
         position: fixed;
         z-index: 9;
-        background: #fff;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background: #000000;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 24px;
     }
     
     .header-area-3.stiky .header-3 {
