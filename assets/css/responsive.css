@@ -3,6 +3,23 @@
     .ca-slider-active-3 .slick-dots {
         left: -76%;
     }
+    .ca-slider-img-3 {
+        right: 8%;
+    }
+}
+
+/* xxl Device : 1600px */
+@media (min-width:1600px) and (max-width: 1899px) {
+    .ca-slider-img-3 {
+        right: 15%;
+    }
+}
+
+/* xxxl Device : 1900px */
+@media (min-width:1900px) {
+    .ca-slider-img-3 {
+        right: 20%;
+    }
 }
 
 /* LG Device : 992px */
