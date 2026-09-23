@@ -1475,3 +1475,17 @@
     }
 
 }
+
+/* Wider screens */
+@media (min-width: 2560px) {
+    .ca-slider-img-3 {
+        bottom: 10%;
+    }
+    .ca-slider-img-3 img {
+        transform: translateX(350px) scale(1.1);
+    }
+    .ca-slider-3.slick-active .ca-slider-img-3 img {
+        transform: translateX(0) scale(1.1);
+    }
+}
+
